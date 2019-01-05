@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:hint="Enter friend's name"
+            android:background="#f9f9f9"
+            android:paddingLeft="8dp"/>
+        <EditText
+            android:id="@+id/cno"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:hint="Enter Cntact No"
+            android:background="#f9f9f9"
+            android:paddingLeft="8dp"/>
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="20dp"
+            android:text="save"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:background="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/btnshow"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="20dp"
+            android:text="Show"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
